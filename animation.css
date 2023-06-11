@@ -1,0 +1,228 @@
+#main{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes change{
+
+    from{
+        background-color: green;
+        width: 0;
+        height: 100px;
+        margin-top: 300px;
+        margin-left: 0px;   
+        border-radius:0 ;
+    }
+    to{
+        width: 400px;
+        height: 500px;
+        border-radius: 50%;
+        margin-top: 0;
+        margin-left: 500px;
+        background-color: yellow;
+    }
+
+}
+
+
+
+
+
+
+
+
+#one{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    animation-name: one;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes one{
+    from{
+width: 0;
+margin: 0;
+background-color: yellow;
+    }
+    to{
+width: 500px;
+height: 500px;
+background-color: red;
+margin: 500px;
+border-radius: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+#two{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    animation-name: two;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes two{
+  from{
+    
+    width: 10px;
+    height: 10px;
+    background-color: tomato;
+    
+        }
+        to{
+    margin: 500px;
+    width: 600px;
+    height: 600px;
+   border-radius: 50%;
+    background-color: red;
+        }  
+}
+
+
+
+
+
+
+
+
+
+
+
+/* img{
+   margin-top: 10%;
+   margin-left: 40%;
+   animation-name: pic;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+}
+@keyframes pic{
+    from{
+margin-top: 300px;
+    }
+    to{
+margin-top: -20px;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* 
+img{
+    width: 100px;
+    height: 100px;
+    animation-name: pic2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition: all 4s;
+}
+@keyframes pic2{
+    from{
+margin-top: 10px;
+margin-left: 10px;
+    }
+    to{
+margin-left: 70%;
+width: 500px;
+height: 500px;
+transform: rotate(360deg);
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+img{
+    width: 100px;
+    height: 100px;
+    animation-name: pic3;
+    animation-duration: 4s;
+    transition: all4s;
+    animation-iteration-count: infinite;
+}
+@keyframes pic3{
+    from{
+margin-top: 40%;
+margin-left: 90%;
+    }
+    to{
+margin: 0;
+width: 500px;
+height: 500px;
+transform: rotate(360deg);
+    }
+}  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+img{
+    width: 20px;
+    height: 20px;
+    margin-top: 20%;
+    animation-name: pic4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition: all 4s;
+}
+@keyframes pic4{
+    from{
+        width: 20px;
+        height: 20px;
+margin-top: 20%;
+    }
+    to{
+width: 500px;
+height: 500px;
+margin-top: 40px;
+transform: rotate(360deg);
+    }
+} */
+
+
+
